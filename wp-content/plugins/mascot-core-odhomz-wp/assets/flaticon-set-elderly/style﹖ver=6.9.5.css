@@ -1,0 +1,323 @@
+@font-face {
+  font-family: 'FlaticonSetElderly';
+  src:url('fonts/flaticon-set-elderly%EF%B9%96hr0153.eot');
+  src:url('fonts/flaticon-set-elderly%EF%B9%96hr0153.eot#iefix') format('embedded-opentype'),
+    url('fonts/flaticon-set-elderly%EF%B9%96hr0153.ttf') format('truetype'),
+    url('fonts/flaticon-set-elderly%EF%B9%96hr0153.woff') format('woff'),
+    url('fonts/flaticon-set-elderly%EF%B9%96hr0153.svg#FlaticonSetElderly') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+[class^="flaticon-elderly-"], [class*=" flaticon-elderly-"] {
+  font-family: 'FlaticonSetElderly';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-elderly-walking-stick:before {
+    content: "\f101";
+}
+.flaticon-elderly-cash:before {
+    content: "\f102";
+}
+.flaticon-elderly-cane:before {
+    content: "\f103";
+}
+.flaticon-elderly-calculator:before {
+    content: "\f104";
+}
+.flaticon-elderly-birthday:before {
+    content: "\f105";
+}
+.flaticon-elderly-bingo:before {
+    content: "\f106";
+}
+.flaticon-elderly-bench:before {
+    content: "\f107";
+}
+.flaticon-elderly-chair:before {
+    content: "\f108";
+}
+.flaticon-elderly-chat:before {
+    content: "\f109";
+}
+.flaticon-elderly-checkers:before {
+    content: "\f10a";
+}
+.flaticon-elderly-golfing:before {
+    content: "\f10b";
+}
+.flaticon-elderly-gardening:before {
+    content: "\f10c";
+}
+.flaticon-elderly-financial-advisor:before {
+    content: "\f10d";
+}
+.flaticon-elderly-eyeglasses:before {
+    content: "\f10e";
+}
+.flaticon-elderly-emergency:before {
+    content: "\f10f";
+}
+.flaticon-elderly-elderly:before {
+    content: "\f110";
+}
+.flaticon-elderly-economy:before {
+    content: "\f111";
+}
+.flaticon-elderly-diaper:before {
+    content: "\f112";
+}
+.flaticon-elderly-denture:before {
+    content: "\f113";
+}
+.flaticon-elderly-swing:before {
+    content: "\f114";
+}
+.flaticon-elderly-clipboard:before {
+    content: "\f115";
+}
+.flaticon-elderly-playing-cards:before {
+    content: "\f116";
+}
+.flaticon-elderly-old-man:before {
+    content: "\f117";
+}
+.flaticon-elderly-house:before {
+    content: "\f118";
+}
+.flaticon-elderly-grandma:before {
+    content: "\f119";
+}
+.flaticon-elderly-sunny:before {
+    content: "\f11a";
+}
+.flaticon-elderly-pipe:before {
+    content: "\f11b";
+}
+.flaticon-elderly-medication:before {
+    content: "\f11c";
+}
+.flaticon-elderly-hospital-bed:before {
+    content: "\f11d";
+}
+.flaticon-elderly-needle-thread:before {
+    content: "\f11e";
+}
+.flaticon-elderly-elderly-report:before {
+    content: "\f11f";
+}
+.flaticon-elderly-pills:before {
+    content: "\f120";
+}
+.flaticon-elderly-slippers:before {
+    content: "\f121";
+}
+.flaticon-elderly-shield:before {
+    content: "\f122";
+}
+.flaticon-elderly-park:before {
+    content: "\f123";
+}
+.flaticon-elderly-luggage:before {
+    content: "\f124";
+}
+.flaticon-elderly-hello:before {
+    content: "\f125";
+}
+.flaticon-elderly-heart-beats:before {
+    content: "\f126";
+}
+.flaticon-elderly-love:before {
+    content: "\f127";
+}
+.flaticon-elderly-optometry:before {
+    content: "\f128";
+}
+.flaticon-elderly-scooter:before {
+    content: "\f129";
+}
+.flaticon-elderly-rocking-chair:before {
+    content: "\f12a";
+}
+.flaticon-elderly-online-banking:before {
+    content: "\f12b";
+}
+.flaticon-elderly-letter:before {
+    content: "\f12c";
+}
+.flaticon-elderly-health-insurance:before {
+    content: "\f12d";
+}
+.flaticon-elderly-headache:before {
+    content: "\f12e";
+}
+.flaticon-elderly-invalid:before {
+    content: "\f12f";
+}
+.flaticon-elderly-old-woman:before {
+    content: "\f130";
+}
+.flaticon-elderly-reading:before {
+    content: "\f131";
+}
+.flaticon-elderly-retirement-home:before {
+    content: "\f132";
+}
+.flaticon-elderly-domino:before {
+    content: "\f133";
+}
+.flaticon-elderly-savings:before {
+    content: "\f134";
+}
+.flaticon-elderly-home:before {
+    content: "\f135";
+}
+.flaticon-elderly-newspaper:before {
+    content: "\f136";
+}
+.flaticon-elderly-knitting:before {
+    content: "\f137";
+}
+.flaticon-elderly-shower:before {
+    content: "\f138";
+}
+.flaticon-elderly-elevator:before {
+    content: "\f139";
+}
+.flaticon-elderly-electrocardiogram:before {
+    content: "\f13a";
+}
+.flaticon-elderly-denture-1:before {
+    content: "\f13b";
+}
+.flaticon-elderly-nurse:before {
+    content: "\f13c";
+}
+.flaticon-elderly-book:before {
+    content: "\f13d";
+}
+.flaticon-elderly-shower-1:before {
+    content: "\f13e";
+}
+.flaticon-elderly-bed:before {
+    content: "\f13f";
+}
+.flaticon-elderly-stair:before {
+    content: "\f140";
+}
+.flaticon-elderly-painting:before {
+    content: "\f141";
+}
+.flaticon-elderly-walking-stick-1:before {
+    content: "\f142";
+}
+.flaticon-elderly-old-woman-1:before {
+    content: "\f143";
+}
+.flaticon-elderly-medicine-cabinet:before {
+    content: "\f144";
+}
+.flaticon-elderly-chess-pieces:before {
+    content: "\f145";
+}
+.flaticon-elderly-hospital:before {
+    content: "\f146";
+}
+.flaticon-elderly-old-woman-2:before {
+    content: "\f147";
+}
+.flaticon-elderly-medicine:before {
+    content: "\f148";
+}
+.flaticon-elderly-hearing-aid:before {
+    content: "\f149";
+}
+.flaticon-elderly-vase:before {
+    content: "\f14a";
+}
+.flaticon-elderly-gardening-1:before {
+    content: "\f14b";
+}
+.flaticon-elderly-toilet:before {
+    content: "\f14c";
+}
+.flaticon-elderly-nurse-1:before {
+    content: "\f14d";
+}
+.flaticon-elderly-old-man-1:before {
+    content: "\f14e";
+}
+.flaticon-elderly-sofa:before {
+    content: "\f14f";
+}
+.flaticon-elderly-pills-1:before {
+    content: "\f150";
+}
+.flaticon-elderly-bookshelf:before {
+    content: "\f151";
+}
+.flaticon-elderly-sphygmomanometer:before {
+    content: "\f152";
+}
+.flaticon-elderly-glasses:before {
+    content: "\f153";
+}
+.flaticon-elderly-diapers:before {
+    content: "\f154";
+}
+.flaticon-elderly-walker:before {
+    content: "\f155";
+}
+.flaticon-elderly-old-man-2:before {
+    content: "\f156";
+}
+.flaticon-elderly-old-woman-3:before {
+    content: "\f157";
+}
+.flaticon-elderly-old-people:before {
+    content: "\f158";
+}
+.flaticon-elderly-wheelchair:before {
+    content: "\f159";
+}
+.flaticon-elderly-emergency-call:before {
+    content: "\f15a";
+}
+.flaticon-elderly-old-man-3:before {
+    content: "\f15b";
+}
+.flaticon-elderly-picture:before {
+    content: "\f15c";
+}
+.flaticon-elderly-tv:before {
+    content: "\f15d";
+}
+.flaticon-elderly-scooter-1:before {
+    content: "\f15e";
+}
+.flaticon-elderly-retirement-home-1:before {
+    content: "\f15f";
+}
+.flaticon-elderly-rocking-chair-1:before {
+    content: "\f160";
+}
+.flaticon-elderly-healthcare:before {
+    content: "\f161";
+}
+.flaticon-elderly-radio:before {
+    content: "\f162";
+}
+.flaticon-elderly-slippers-1:before {
+    content: "\f163";
+}

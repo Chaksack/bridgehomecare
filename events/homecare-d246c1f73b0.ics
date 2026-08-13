@@ -1,0 +1,536 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Homecare - ECPv6.17.1//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Homecare
+X-ORIGINAL-URL:https://bridgecarehomesolutions.com
+X-WR-CALDESC:Events for Homecare
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:UTC
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+TZNAME:UTC
+DTSTART:20200101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20210314T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20211107T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20220313T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20221106T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20230312T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20231105T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20240310T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20241103T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20250309T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20251102T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20260308T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20261101T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20270314T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20271107T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20280312T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20281105T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20290311T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20291104T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20300310T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20301103T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20310309T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20311102T060000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20210314T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20211107T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20220313T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20221106T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20230312T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20231105T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20240310T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20241103T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20250309T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20251102T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20260308T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20261101T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20270314T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20271107T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20280312T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20281105T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20290311T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20291104T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20300310T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20301103T090000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:20310309T100000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:20311102T090000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:20270314T080000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:20271107T070000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:20280312T080000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:20281105T070000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:20290311T080000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:20291104T070000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:20300310T080000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:20301103T070000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:20310309T080000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:20311102T070000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=UTC:20211211T080000
+DTEND;TZID=UTC:20301211T170000
+DTSTAMP:20220301T062951Z
+CREATED:20220301T062951Z
+LAST-MODIFIED:20220301T062951Z
+UID:17443-1639209600-1923238800@bridgecarehomesolutions.com
+SUMMARY:Inspiration For The World
+DESCRIPTION:Until recently\, the prevailing view assumed lorem ipsum was born as a nonsense text. It’s not Latin\, though it looks like it\, and it actually says nothing  Before & After magazine answered a curious reader\, Its words loosely approximate the frequency with which letters occur in English\, which is why at a glance it looks pretty real.  As Cicero would put it\, “Um\, not so fast.” \nAnd anyways\, as Cecil Adams reasoned Do you really think graphic arts supply houses were hiring classics scholars in the 1960s Perhaps. But it seems reasonable to imagine that there was a version in use far before the age of Letraset.Whether a medieval typesetter chose to garble a well-known text or whether a quirk in the 1914 Loeb Edition inspired a graphic designer it’s admittedly \n  \nEvent Requirements\nThe placeholder text\, beginning with the line “Lorem ipsum dolor sit amet\, consectetur adipiscing elit\, looks like Latin because in its youth\, centuries ago\, it was Latin. Don’t bother typing into Google translate. If you already tried\, you may have gotten anything from depending on how you capitalized the letters. The bizarre translation was fodder for conspiracy theories\, but Google has since \nRichard McClintock\, a Latin scholar from Hampden-Sydney College\, is credited with discovering the source behind the ubiquitous filler text. In seeing a sample of lorem ipsum\, his interest was piqued by consectetur—a genuine\, albeit rare\, Latin word. Consulting a Latin dictionary led McClintock to a passage from De Finibus Bonorum et Malorum a first-century B.C. \n  \nEvent Summary\nSo how did the classical Latin become so incoherent? According to McClintock\, a 15th century typesetter likely scrambled part of Cicero’s De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book. \nIt’s difficult to find examples of lorem ipsum in use before Letraset made it popular as a dummy text in the 1960s\, although McClintock says he remembers coming across the lorem ipsum passage in a book of old metal type samples. So far he hasn’t relocated where he once saw the passage but the popularity of Cicero in the 15th century supports the theory that the filler text.
+URL:https://bridgecarehomesolutions.com/event/inspiration-for-the-world/
+LOCATION:Doug Fir Lounge\, 830 E. Burnside St.\, Portland\, OR\, 97214\, United States
+CATEGORIES:Life style
+ATTACH;FMTTYPE=image/jpeg:https://bridgecarehomesolutions.com/wp-content/uploads/2022/04/06.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=UTC:20211211T080000
+DTEND;TZID=UTC:20301211T170000
+DTSTAMP:20220302T062951Z
+CREATED:20220302T062951Z
+LAST-MODIFIED:20220302T062951Z
+UID:34006-1639209600-1923238800@bridgecarehomesolutions.com
+SUMMARY:Meat Shots For Hungry
+DESCRIPTION:Until recently\, the prevailing view assumed lorem ipsum was born as a nonsense text. It’s not Latin\, though it looks like it\, and it actually says nothing  Before & After magazine answered a curious reader\, Its words loosely approximate the frequency with which letters occur in English\, which is why at a glance it looks pretty real.  As Cicero would put it\, “Um\, not so fast.” \nAnd anyways\, as Cecil Adams reasoned Do you really think graphic arts supply houses were hiring classics scholars in the 1960s Perhaps. But it seems reasonable to imagine that there was a version in use far before the age of Letraset.Whether a medieval typesetter chose to garble a well-known text or whether a quirk in the 1914 Loeb Edition inspired a graphic designer it’s admittedly \n  \nEvent Requirements\nThe placeholder text\, beginning with the line “Lorem ipsum dolor sit amet\, consectetur adipiscing elit\, looks like Latin because in its youth\, centuries ago\, it was Latin. Don’t bother typing into Google translate. If you already tried\, you may have gotten anything from depending on how you capitalized the letters. The bizarre translation was fodder for conspiracy theories\, but Google has since \nRichard McClintock\, a Latin scholar from Hampden-Sydney College\, is credited with discovering the source behind the ubiquitous filler text. In seeing a sample of lorem ipsum\, his interest was piqued by consectetur—a genuine\, albeit rare\, Latin word. Consulting a Latin dictionary led McClintock to a passage from De Finibus Bonorum et Malorum a first-century B.C. \n  \nEvent Summary\nSo how did the classical Latin become so incoherent? According to McClintock\, a 15th century typesetter likely scrambled part of Cicero’s De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book. \nIt’s difficult to find examples of lorem ipsum in use before Letraset made it popular as a dummy text in the 1960s\, although McClintock says he remembers coming across the lorem ipsum passage in a book of old metal type samples. So far he hasn’t relocated where he once saw the passage but the popularity of Cicero in the 15th century supports the theory that the filler text.
+URL:https://bridgecarehomesolutions.com/event/meat-shots-for-hungry/
+LOCATION:Doug Fir Lounge\, 830 E. Burnside St.\, Portland\, OR\, 97214\, United States
+CATEGORIES:Life style
+ATTACH;FMTTYPE=image/jpeg:https://bridgecarehomesolutions.com/wp-content/uploads/2022/04/02.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=UTC:20211211T080000
+DTEND;TZID=UTC:20301211T170000
+DTSTAMP:20220302T120427Z
+CREATED:20220302T120427Z
+LAST-MODIFIED:20220302T120427Z
+UID:34007-1639209600-1923238800@bridgecarehomesolutions.com
+SUMMARY:Marathon for Children
+DESCRIPTION:Until recently\, the prevailing view assumed lorem ipsum was born as a nonsense text. It’s not Latin\, though it looks like it\, and it actually says nothing  Before & After magazine answered a curious reader\, Its words loosely approximate the frequency with which letters occur in English\, which is why at a glance it looks pretty real.  As Cicero would put it\, “Um\, not so fast.” \nAnd anyways\, as Cecil Adams reasoned Do you really think graphic arts supply houses were hiring classics scholars in the 1960s Perhaps. But it seems reasonable to imagine that there was a version in use far before the age of Letraset.Whether a medieval typesetter chose to garble a well-known text or whether a quirk in the 1914 Loeb Edition inspired a graphic designer it’s admittedly \n  \nEvent Requirements\nThe placeholder text\, beginning with the line “Lorem ipsum dolor sit amet\, consectetur adipiscing elit\, looks like Latin because in its youth\, centuries ago\, it was Latin. Don’t bother typing into Google translate. If you already tried\, you may have gotten anything from depending on how you capitalized the letters. The bizarre translation was fodder for conspiracy theories\, but Google has since \nRichard McClintock\, a Latin scholar from Hampden-Sydney College\, is credited with discovering the source behind the ubiquitous filler text. In seeing a sample of lorem ipsum\, his interest was piqued by consectetur—a genuine\, albeit rare\, Latin word. Consulting a Latin dictionary led McClintock to a passage from De Finibus Bonorum et Malorum a first-century B.C. \n  \nEvent Summary\nSo how did the classical Latin become so incoherent? According to McClintock\, a 15th century typesetter likely scrambled part of Cicero’s De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book. \nIt’s difficult to find examples of lorem ipsum in use before Letraset made it popular as a dummy text in the 1960s\, although McClintock says he remembers coming across the lorem ipsum passage in a book of old metal type samples. So far he hasn’t relocated where he once saw the passage but the popularity of Cicero in the 15th century supports the theory that the filler text.
+URL:https://bridgecarehomesolutions.com/event/marathon-for-children/
+LOCATION:Doug Fir Lounge\, 830 E. Burnside St.\, Portland\, OR\, 97214\, United States
+CATEGORIES:Life style
+ATTACH;FMTTYPE=:
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=UTC:20211211T080000
+DTEND;TZID=UTC:20301211T170000
+DTSTAMP:20220302T120606Z
+CREATED:20220302T120606Z
+LAST-MODIFIED:20220302T120606Z
+UID:28182-1639209600-1923238800@bridgecarehomesolutions.com
+SUMMARY:We’re Helping the Senior Eledery People
+DESCRIPTION:Until recently\, the prevailing view assumed lorem ipsum was born as a nonsense text. It’s not Latin\, though it looks like it\, and it actually says nothing  Before & After magazine answered a curious reader\, Its words loosely approximate the frequency with which letters occur in English\, which is why at a glance it looks pretty real.  As Cicero would put it\, “Um\, not so fast.” \nAnd anyways\, as Cecil Adams reasoned Do you really think graphic arts supply houses were hiring classics scholars in the 1960s Perhaps. But it seems reasonable to imagine that there was a version in use far before the age of Letraset.Whether a medieval typesetter chose to garble a well-known text or whether a quirk in the 1914 Loeb Edition inspired a graphic designer it’s admittedly \n  \nEvent Requirements\nThe placeholder text\, beginning with the line “Lorem ipsum dolor sit amet\, consectetur adipiscing elit\, looks like Latin because in its youth\, centuries ago\, it was Latin. Don’t bother typing into Google translate. If you already tried\, you may have gotten anything from depending on how you capitalized the letters. The bizarre translation was fodder for conspiracy theories\, but Google has since \nRichard McClintock\, a Latin scholar from Hampden-Sydney College\, is credited with discovering the source behind the ubiquitous filler text. In seeing a sample of lorem ipsum\, his interest was piqued by consectetur—a genuine\, albeit rare\, Latin word. Consulting a Latin dictionary led McClintock to a passage from De Finibus Bonorum et Malorum a first-century B.C. \n  \nEvent Summary\nSo how did the classical Latin become so incoherent? According to McClintock\, a 15th century typesetter likely scrambled part of Cicero’s De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book. \nIt’s difficult to find examples of lorem ipsum in use before Letraset made it popular as a dummy text in the 1960s\, although McClintock says he remembers coming across the lorem ipsum passage in a book of old metal type samples. So far he hasn’t relocated where he once saw the passage but the popularity of Cicero in the 15th century supports the theory that the filler text.
+URL:https://bridgecarehomesolutions.com/event/were-helping-the-senior-eledery-people/
+LOCATION:Doug Fir Lounge\, 830 E. Burnside St.\, Portland\, OR\, 97214\, United States
+CATEGORIES:Life style
+ATTACH;FMTTYPE=image/jpeg:https://bridgecarehomesolutions.com/wp-content/uploads/2022/04/02.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=UTC:20211211T080000
+DTEND;TZID=UTC:20301211T170000
+DTSTAMP:20220304T062529Z
+CREATED:20220304T062529Z
+LAST-MODIFIED:20220304T062529Z
+UID:34005-1639209600-1923238800@bridgecarehomesolutions.com
+SUMMARY:Independent Living for Senior Couples
+DESCRIPTION:Until recently\, the prevailing view assumed lorem ipsum was born as a nonsense text. It’s not Latin\, though it looks like it\, and it actually says nothing  Before & After magazine answered a curious reader\, Its words loosely approximate the frequency with which letters occur in English\, which is why at a glance it looks pretty real.  As Cicero would put it\, “Um\, not so fast.” \nAnd anyways\, as Cecil Adams reasoned Do you really think graphic arts supply houses were hiring classics scholars in the 1960s Perhaps. But it seems reasonable to imagine that there was a version in use far before the age of Letraset.Whether a medieval typesetter chose to garble a well-known text or whether a quirk in the 1914 Loeb Edition inspired a graphic designer it’s admittedly \n  \nEvent Requirements\nThe placeholder text\, beginning with the line “Lorem ipsum dolor sit amet\, consectetur adipiscing elit\, looks like Latin because in its youth\, centuries ago\, it was Latin. Don’t bother typing into Google translate. If you already tried\, you may have gotten anything from depending on how you capitalized the letters. The bizarre translation was fodder for conspiracy theories\, but Google has since \nRichard McClintock\, a Latin scholar from Hampden-Sydney College\, is credited with discovering the source behind the ubiquitous filler text. In seeing a sample of lorem ipsum\, his interest was piqued by consectetur—a genuine\, albeit rare\, Latin word. Consulting a Latin dictionary led McClintock to a passage from De Finibus Bonorum et Malorum a first-century B.C. \n  \nEvent Summary\nSo how did the classical Latin become so incoherent? According to McClintock\, a 15th century typesetter likely scrambled part of Cicero’s De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book. \nIt’s difficult to find examples of lorem ipsum in use before Letraset made it popular as a dummy text in the 1960s\, although McClintock says he remembers coming across the lorem ipsum passage in a book of old metal type samples. So far he hasn’t relocated where he once saw the passage but the popularity of Cicero in the 15th century supports the theory that the filler text.
+URL:https://bridgecarehomesolutions.com/event/independent-living-for-senior-couples/
+LOCATION:Bamboo Fresh\, 655 Front St. #108\, Lahaina\, HI\, 96761\, United States
+CATEGORIES:Education
+ATTACH;FMTTYPE=image/jpeg:https://bridgecarehomesolutions.com/wp-content/uploads/2022/04/06.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20220617T043000
+DTEND;TZID=America/New_York:20300617T073000
+DTSTAMP:20211016T070046Z
+CREATED:20211016T070046Z
+LAST-MODIFIED:20211016T070046Z
+UID:19892-1655440200-1907911800@bridgecarehomesolutions.com
+SUMMARY:Saving energy in world
+DESCRIPTION:Abbott\, Gottlieb and Watsica hosts Dissecting Power Generating Plant Operator\, an event by Cullen Altenwerth coming to New York City! \nBut\, now that I’m perfectly sure I don’t think\,’ Alice went on\, taking first one side and then treading on my tail. See how eagerly the lobsters and the other side\, the puppy made another snatch in the sky. Twinkle.
+URL:https://bridgecarehomesolutions.com/event/saving-energy-in-world/
+LOCATION:Abbott\, Gottlieb and Watsica\, 61 Broadway\, New York City\, New York\, United States
+CATEGORIES:Generated
+ORGANIZER;CN="Cullen Altenwerth":MAILTO:cullen@altenwerth-qa.tri.be
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20220817T153000
+DTEND;TZID=America/Los_Angeles:20300817T170000
+DTSTAMP:20211016T070046Z
+CREATED:20211016T070046Z
+LAST-MODIFIED:20211016T070046Z
+UID:19893-1660750200-1913216400@bridgecarehomesolutions.com
+SUMMARY:Green construction
+DESCRIPTION:The Hammes Arena hosts Dr. Jerry Botsford Dissects Copy Machine Operator\, an event by Elmo Stiedemann-Okuneva coming to Los Angeles! \nIf I or she fell past it. ‘Well!’ thought Alice ‘without pictures or conversations in it\, and on it (as she had to kneel down on one of them can explain it\,’ said Alice\, quite forgetting that she had gone through that day. ‘No\, no!’ said the Queen.
+URL:https://bridgecarehomesolutions.com/event/green-construction/
+LOCATION:The Hammes Arena\, 4218 Santa Monica Blvd\, Los Angeles\, California\, United States
+CATEGORIES:Generated
+ORGANIZER;CN="Elmo Stiedemann-Okuneva":MAILTO:elmo@stiedemann-okuneva-qa.tri.be
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20241104T140000
+DTEND;TZID=America/Los_Angeles:20301104T173000
+DTSTAMP:20211016T070046Z
+CREATED:20211016T070046Z
+LAST-MODIFIED:20211016T070046Z
+UID:19899-1730728800-1920043800@bridgecarehomesolutions.com
+SUMMARY:Recycling plastic bottle
+DESCRIPTION:The Hammes Arena hosts Empower Robust Architectures\, an event by Madisen Nicolas coming to Los Angeles! \nDormouse again\, so she turned to the shore. CHAPTER III. A Caucus-Race and a great hurry. An enormous puppy was looking for them\, and was gone across to the waving of the e–e–evening\, Beautiful\, beauti–FUL SOUP!’ ‘Chorus again!’ cried the Gryphon\, the squeaking of.
+URL:https://bridgecarehomesolutions.com/event/recycling-plastic-bottle/
+LOCATION:The Hammes Arena\, 4218 Santa Monica Blvd\, Los Angeles\, California\, United States
+CATEGORIES:Generated
+ORGANIZER;CN="Madisen Nicolas":MAILTO:madisen@nicolas-qa.tri.be
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20250811T133000
+DTEND;TZID=America/Los_Angeles:20300811T163000
+DTSTAMP:20211016T070046Z
+CREATED:20211016T070046Z
+LAST-MODIFIED:20211016T070046Z
+UID:19896-1754919000-1912696200@bridgecarehomesolutions.com
+SUMMARY:Saving energy in home
+DESCRIPTION:Jast\, Hegmann and Gusikowski hosts Discussing CTO\, an event by Everardo Keeling coming to Beverly Hills! \nI fell off the cake. * * * * * * * * * * * * * * * * * * * * * * * * * * ‘What a pity it wouldn’t stay!’ sighed the Lory\, with a deep voice\, ‘What are tarts made of?’ Alice asked in a VERY turn-up nose\, much more like a telescope! I think.
+URL:https://bridgecarehomesolutions.com/event/saving-energy-in-home-2/
+LOCATION:Jast\, Hegmann and Gusikowski\, 8936 Wilshire Blvd\, Beverly Hills\, California\, United States
+CATEGORIES:Generated
+ORGANIZER;CN="Everardo Keeling":MAILTO:everardo@keeling-qa.tri.be
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260316T073000
+DTEND;TZID=America/Los_Angeles:20300316T093000
+DTSTAMP:20211016T070046Z
+CREATED:20211016T070046Z
+LAST-MODIFIED:20211016T070046Z
+UID:19897-1773646200-1899883800@bridgecarehomesolutions.com
+SUMMARY:Save the wild animals
+DESCRIPTION:The Hammes Arena hosts Optional reciprocal website\, an event by Elmo Stiedemann-Okuneva coming to Los Angeles! \nI’m opening out like the Mock Turtle had just begun to repeat it\, when a cry of ‘The trial’s beginning!’ was heard in the pictures of him)\, while the rest of my life.’ ‘You are all dry\, he is gay as a lark\, And will.
+URL:https://bridgecarehomesolutions.com/event/save-the-wild-animals/
+LOCATION:The Hammes Arena\, 4218 Santa Monica Blvd\, Los Angeles\, California\, United States
+CATEGORIES:Generated
+ORGANIZER;CN="Elmo Stiedemann-Okuneva":MAILTO:elmo@stiedemann-okuneva-qa.tri.be
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260515T053000
+DTEND;TZID=America/Los_Angeles:20300515T073000
+DTSTAMP:20211016T070046Z
+CREATED:20211016T070046Z
+LAST-MODIFIED:20211016T070046Z
+UID:19894-1778823000-1905060600@bridgecarehomesolutions.com
+SUMMARY:Tree Planting Contest
+DESCRIPTION:The Schroeder Room hosts Dissecting Network Admin OR Computer Systems Administrator\, an event by Everardo Keeling coming to San Francisco! \nTell her to speak with. Alice waited till the Pigeon had finished. ‘As if I know all the way out of sight: ‘but it doesn’t matter much\,’ thought Alice\, ‘shall I NEVER get any older than I am now? That’ll be a very poor speaker\,’ said the King\, rubbing his hands; ‘so now let the Dormouse into.
+URL:https://bridgecarehomesolutions.com/event/tree-planting-contest/
+LOCATION:The Schroeder Room\, 276 Columbus Ave\, San Francisco\, California\, United States
+CATEGORIES:Generated
+ORGANIZER;CN="Everardo Keeling":MAILTO:everardo@keeling-qa.tri.be
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20270522T213000
+DTEND;TZID=America/Los_Angeles:20300522T233000
+DTSTAMP:20211016T070046Z
+CREATED:20211016T070046Z
+LAST-MODIFIED:20211016T070046Z
+UID:19895-1811021400-1905723000@bridgecarehomesolutions.com
+SUMMARY:World Environment Day
+DESCRIPTION:The Hammes Arena hosts Discussing Dental Laboratory Technician\, an event by Jackeline Ritchie coming to Los Angeles! \nI fancied that kind of sob\, ‘I’ve tried the effect of lying down on one knee as he spoke\, ‘we were trying–‘ ‘I see!’ said the King. ‘When did you manage on the spot.’ This did not get dry very soon. ‘Ahem!’ said the Dodo suddenly called out in a melancholy air\, and\, after waiting.
+URL:https://bridgecarehomesolutions.com/event/world-environment-day/
+LOCATION:The Hammes Arena\, 4218 Santa Monica Blvd\, Los Angeles\, California\, United States
+CATEGORIES:Generated
+ORGANIZER;CN="Jackeline Ritchie":MAILTO:jackeline@ritchie-qa.tri.be
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20280213T220000
+DTEND;TZID=America/Chicago:20300214T003000
+DTSTAMP:20211016T070046Z
+CREATED:20211016T070046Z
+LAST-MODIFIED:20211016T070046Z
+UID:19898-1834092000-1897259400@bridgecarehomesolutions.com
+SUMMARY:Movement for clean air
+DESCRIPTION:The Swift Arena hosts Innovative encompassing leverage\, an event by Jackeline Ritchie coming to Chicago! \nAs soon as she went back for a good many voices all talking at once\, she found a little scream of laughter. ‘Oh\, hush!’ the Rabbit say\, ‘A barrowful of WHAT?’ thought Alice ‘without pictures or conversations?’ So she began: ‘O.
+URL:https://bridgecarehomesolutions.com/event/movement-for-clean-air/
+LOCATION:The Swift Arena\, 848 S Michigan Ave\, Chicago\, Illinois\, United States
+CATEGORIES:Generated
+ORGANIZER;CN="Jackeline Ritchie":MAILTO:jackeline@ritchie-qa.tri.be
+END:VEVENT
+END:VCALENDAR
