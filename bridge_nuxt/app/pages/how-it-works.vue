@@ -2,11 +2,11 @@
 useHead({ title: 'How It Works' })
 
 const steps = [
-  { title: 'Reach Out', text: 'Contact us directly or ask your doctor, hospital discharge coordinator, or a care team to refer you. We welcome both self-referrals and provider referrals and will respond promptly to get the conversation started.' },
-  { title: 'Free Consultation', text: 'We’ll connect with you (or your family member) to understand your situation, your needs, and your timeline. No pressure, no commitment – just a real conversation so we can figure out the best way to support you.' },
-  { title: 'Your Care Plan', text: 'Based on your consultation, we will put together a personalized support plan that fits your recovery timeline, daily needs, and schedule. Every plan is private-pay and fully flexible – no insurance hoops, no rigid packages.' },
-  { title: 'We Show Up', text: 'Your caregiver arrives ready to help. Whether that’s escorting you home from the hospital, settling you in, helping around the house, or supporting you through your recovery day by day. We handle the details so you can focus on healing.' },
-  { title: 'Ongoing Support', text: 'Need us for one day or several weeks? We adjust as your needs change. When you’re back on your feet, we step back. It’s that simple.' }
+  { title: 'Reach Out', text: 'Contact BridgeCare directly to tell us what kind of support you’re looking for. A healthcare professional may also refer you to us. We welcome both direct requests and professional referrals and will get back to you promptly to start the conversation.' },
+  { title: 'Free Consultation', text: 'We’ll talk with you — or a family member helping you — to understand what you need, when you need it, and how BridgeCare may be able to help. No pressure. No commitment. Just a conversation to make sure our services are the right fit for your needs.' },
+  { title: 'Your Personalized Support Plan', text: 'Based on your consultation, we’ll create a personalized support plan built around what you need, your schedule, and how long you’d like support. BridgeCare is private-pay and flexible, so your plan is based on your needs — not a one-size-fits-all package.' },
+  { title: 'We Show Up', text: 'Your BridgeCare support professional arrives ready to help with the services outlined in your support plan. Whether you need an extra hand during recovery, help around the home, or support with everyday tasks, we’re there to make things easier.' },
+  { title: 'Support That Adjusts With You', text: 'Need us for a short time or a little longer? Your support can adjust as your needs change. When you no longer need the extra hand, we step back. It’s that simple.' }
 ]
 </script>
 
@@ -19,7 +19,7 @@ const steps = [
         <div class="section-intro centered">
           <h6>Getting Started</h6>
           <h2>Getting Support Shouldn&rsquo;t Be Complicated</h2>
-          <p>Especially when you&rsquo;re already navigating a procedure, a new baby, or a recovery. Here&rsquo;s how BridgeCare works.</p>
+          <p>Whether you're preparing for a procedure, recovering at home, welcoming a new baby, or simply need an extra hand, getting started with BridgeCare is easy. Here&rsquo;s how it works.</p>
         </div>
         <div class="grid grid-3">
           <article v-for="(step, i) in steps" :key="step.title" class="icon-card">

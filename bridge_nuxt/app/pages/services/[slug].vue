@@ -43,7 +43,7 @@ const otherServices = computed(() => services.filter((s) => s.slug !== slug.valu
         <aside class="sidebar">
           <div class="sidebar-card sidebar-cta">
             <h4 style="margin-bottom: 0.4rem;">Have Questions?</h4>
-            <p style="color: var(--muted); margin: 0;">Call us today to discuss care options or schedule a free consultation.</p>
+            <p style="color: var(--muted); margin: 0;">Call us today to discuss support options or schedule a free consultation.</p>
             <NuxtLink class="btn btn-primary" to="/contact">Contact Us</NuxtLink>
           </div>
 

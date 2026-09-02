@@ -7,48 +7,54 @@ useHead({ title: undefined })
 // const posts = allPosts.slice(0, 3)
 
 const whoWeServe = [
-  { title: 'Individuals Recovering From Outpatient Surgery', text: 'Many patients are discharged the same day after procedures and may need temporary support while anesthesia, pain, or limited mobility affects independence.', icon: '🏥' },
-  { title: 'New Mothers During Postpartum Recovery', text: 'Including mothers recovering from cesarean deliveries who need additional help with household responsibilities.', icon: '🤱' },
-  { title: 'Adults and Seniors Needing Non-Medical Home Support', text: 'For those who need assistance with daily activities but do not require skilled nursing care.', icon: '🏡' },
-  { title: 'Traveling Patients Recovering Locally', text: 'The Denver-Aurora area attracts patients traveling for outpatient and specialty procedures who may need temporary recovery support before returning home.', icon: '✈️' }
+  { title: 'Adults Recovering From Surgery or a Procedure', text: 'Coming home after surgery doesn’t always mean you’re ready to do everything on your own. We provide practical, non-medical support to make recovery at home more comfortable and manageable.', icon: '🏥' },
+  { title: 'New Mothers During Postpartum Recovery', text: 'Recovering from childbirth takes time. We provide an extra hand with everyday household needs so you can focus on yourself, your recovery, and your new baby.', icon: '🤱' },
+  { title: 'Adults Needing Everyday Support', text: 'Sometimes you simply need help getting things done. BridgeCare provides flexible support with appropriate everyday tasks, errands, and household needs — whether you need us temporarily or a little more regularly.', icon: '🏡' },
+  { title: 'Visitors Recovering Away From Home', text: 'Traveling to the Denver-Aurora area for surgery or a procedure can mean recovering without your usual support system nearby. BridgeCare provides local, non-medical support while you recover before returning home.', icon: '✈️' }
 ]
 
 const trustIndicators = [
   {
-    title: 'Professional & Reliable Care',
+    title: 'Trusted & Reliable',
     icon: '✓',
+    text: 'Our support professionals are carefully screened and prepared to provide dependable, respectful assistance in your home.',
     items: [
-      'Non-medical services designed to support recovery and safety at home',
-      'Structured service plans and documentation',
-      'Caregivers trained on safety protocols and care boundaries'
+      'Carefully screened support professionals',
+      'Clear service expectations',
+      'Reliable, professional support'
     ]
   },
   {
-    title: 'Responsible & Compliant Operations',
+    title: 'Clearly Non-Medical',
     icon: '🛡️',
+    text: 'BridgeCare provides practical, non-medical assistance within clearly defined service boundaries. We do not provide medical, clinical, or nursing services.',
     items: [
-      'Non-medical care aligned with Colorado guidelines',
-      'Caregivers do not perform clinical or nursing tasks'
+      'Clear non-medical service boundaries',
+      'Safety-focused practices',
+      'Designed to complement medical care when applicable'
     ]
   },
   {
-    title: 'Relationship-Based Care',
+    title: 'Personalized & Flexible',
     icon: '🤝',
+    text: 'Your needs may look different from someone else’s. We create a personalized support plan based on what you need, when you need it.',
     items: [
-      'Outpatient surgery centers',
-      'Hospitals and discharge planners',
-      'Specialty clinics',
-      'OB/GYN and maternity practices'
+      'Flexible scheduling',
+      'Short-term or ongoing options',
+      'Support tailored to your needs'
     ]
   }
 ]
 
 const faqs = reactive([
-  { q: 'What services do you offer?', a: 'We provide non-medical home care including pre and post operative recovery support, postpartum and new mother household support, and traditional non-medical home care for adults and seniors.', open: true },
-  { q: 'Are your caregivers trained and certified?', a: 'Yes, all our caregivers are thoroughly screened and trained on safety protocols and care boundaries. Our caregivers do not perform clinical or nursing tasks.', open: false },
-  { q: 'How do I know which type of care is right for me or my loved one?', a: 'We offer a free initial consultation where we learn about your recovery or household support needs and recommend a personalized support plan.', open: false },
-  { q: 'Does BridgeCare provide medical or nursing care?', a: 'No. Our non-medical services supplement — but do not replace — medical or nursing care, and are designed to align with Colorado guidelines.', open: false },
-  { q: 'Do you work with hospitals and healthcare providers?', a: 'Yes, we partner with outpatient surgery centers, hospitals and discharge planners, specialty clinics, and OB/GYN and maternity practices to support safe recovery after discharge.', open: false }
+  { q: 'What services does BridgeCare provide?', a: 'BridgeCare provides personalized, non-medical concierge support for adults who need an extra hand during recovery or with everyday tasks. Our services include pre- and post-surgery recovery support, postpartum and new mother support, and everyday concierge support.', open: true },
+  { q: 'What does “non-medical support” mean?', a: 'Non-medical support means we help with practical, everyday needs — not medical, nursing, or clinical care. During your consultation, we’ll talk about what you need and make sure it falls within the services BridgeCare provides.', open: false },
+  { q: 'Who provides the support?', a: 'BridgeCare support professionals are carefully screened and prepared to provide reliable, respectful, non-medical assistance. We match services to your needs while maintaining clear professional and service boundaries.', open: false },
+  { q: 'How do I know which service is right for me?', a: 'You don’t have to figure that out before contacting us. During your initial consultation, we’ll learn what kind of help you need and determine whether BridgeCare is a good fit. If so, we’ll create a personalized support plan based on your needs and schedule.', open: false },
+  { q: 'Can I use BridgeCare for short-term support?', a: 'Yes. BridgeCare is designed to offer flexible support, including short-term assistance during recovery, postpartum periods, temporary changes in routine, or other times when you could use an extra hand.', open: false },
+  { q: 'Do I need a doctor’s referral?', a: 'No. You can contact BridgeCare directly to request services. Healthcare professionals may also refer individuals to BridgeCare when non-medical support may be helpful.', open: false },
+  { q: 'Does BridgeCare accept insurance?', a: 'BridgeCare is a private-pay service. Contact us to discuss your needs, scheduling, and current service options.', open: false },
+  { q: 'Does BridgeCare work with hospitals and healthcare providers?', a: 'Yes. BridgeCare welcomes referrals from hospitals, outpatient surgery centers, specialty practices, discharge professionals, OB/GYN practices, and other healthcare providers seeking non-medical support options for their patients.', open: false }
 ])
 
 function toggleFaq(item: (typeof faqs)[number]) {
@@ -60,16 +66,16 @@ function toggleFaq(item: (typeof faqs)[number]) {
   <div>
     <section class="hero">
       <div class="hero-bg">
-        <img src="/images/hero-home.jpg" alt="Caregiver supporting a client during recovery at home" />
+        <img src="/images/hero-home.jpg" alt="BridgeCare support professional helping a client during recovery at home" />
       </div>
       <div class="container">
         <div class="hero-content">
-          <p class="eyebrow">Non-Medical Recovery Support</p>
-          <h1>Non-Medical Recovery Support at Home<span class="text-gold">.</span></h1>
-          <p>Helping individuals and families safely transition from hospital to home with short term recovery care, postpartum household support, and non-medical home assistance throughout the Denver-Aurora metropolitan area.</p>
+          <p class="eyebrow">Personalized Non-Medical Support</p>
+          <h1>An Extra Hand When You Need It Most<span class="text-gold">.</span></h1>
+          <p>Personalized concierge support for adults who need an extra hand during recovery or with everyday tasks. From post-surgery and postpartum support to help around the home, BridgeCare provides flexible, non-medical assistance throughout the Denver-Aurora area.</p>
           <div class="hero-actions">
             <ScheduleButton class="btn btn-gold">Schedule A Consultation</ScheduleButton>
-            <NuxtLink class="btn btn-outline" to="/referral-partners">Refer A Patient</NuxtLink>
+            <NuxtLink class="btn btn-outline" to="/referral-partners">Make a Referral</NuxtLink>
           </div>
         </div>
       </div>
@@ -80,24 +86,24 @@ function toggleFaq(item: (typeof faqs)[number]) {
         <div>
           <div class="section-intro">
             <h6>About Us</h6>
-            <h2>You're Never Meant to Navigate It Alone</h2>
-            <p>BridgeCare was born from a simple but painful realization &ndash; too many people are sent home from surgery or a hospital stay with no real support waiting for them. For those who live alone, are new to a city, or just don&rsquo;t have family nearby, recovery can be isolating and overwhelming. We exist to change that. BridgeCare provides short-term, non-medical in-home care during recovery and transition periods, so you never have to navigate it alone.</p>
+            <h2>You Don't Have to Do It All Alone</h2>
+            <p>BridgeCare was created around a simple idea: sometimes you just need an extra hand. Whether you're recovering from surgery, adjusting after childbirth, living on your own, or simply need temporary help with everyday tasks, having reliable support can make all the difference. BridgeCare provides personalized, non-medical concierge support designed around your needs — so you can focus on recovering, getting things done, and feeling more comfortable at home.</p>
           </div>
           <ul class="check-list" style="color: var(--text);">
-            <li>Focus on short-term recovery and transition support</li>
-            <li>Flexible scheduling</li>
-            <li>Private-pay model allowing quick service access</li>
+            <li>Short-term and flexible support</li>
+            <li>Personalized to your needs</li>
+            <li>Private-pay for convenient access to services</li>
             <li>Serving the Denver-Aurora metropolitan area</li>
           </ul>
           <div class="stat-row">
-            <div><strong>Trained Caregivers</strong><span>Screened and trained on safety protocols and care boundaries.</span></div>
-            <div><strong>Non-Medical Focus</strong><span>Care that supplements — never replaces — medical or nursing care.</span></div>
+            <div><strong>Trusted Support Professionals</strong><span>Carefully screened and prepared to provide dependable, non-medical assistance while respecting clear service boundaries.</span></div>
+            <div><strong>Non-Medical Support</strong><span>Practical assistance designed to complement your existing medical care when applicable — never replace it.</span></div>
           </div>
         </div>
         <div class="split-media">
           <div class="collage">
-            <img class="collage-primary" src="/images/why-bridgecare-1.jpg" alt="Caregiver with client" />
-            <img class="collage-secondary" src="/images/why-bridgecare-2.jpg" alt="Caregiver assisting client" />
+            <img class="collage-primary" src="/images/why-bridgecare-1.jpg" alt="BridgeCare support professional with a client" />
+            <img class="collage-secondary" src="/images/why-bridgecare-2.jpg" alt="BridgeCare support professional assisting a client" />
           </div>
         </div>
       </div>
@@ -107,8 +113,8 @@ function toggleFaq(item: (typeof faqs)[number]) {
       <div class="container">
         <div class="section-intro centered">
           <h6>Our Services</h6>
-          <h2>Non-Medical Home Care Designed for Recovery</h2>
-          <p>BridgeCare provides non-medical home care services designed to support individuals during recovery and transition periods. Our services supplement — but do not replace — medical or nursing care.</p>
+          <h2>Personalized Support for Recovery & Everyday Life</h2>
+          <p>BridgeCare provides flexible, non-medical concierge support based on what you need and when you need it. Whether you're preparing for a procedure, recovering at home, welcoming a new baby, or simply need an extra hand with everyday tasks, we're here to help.</p>
         </div>
         <div class="grid grid-3">
           <article v-for="service in services" :key="service.slug" class="service-card">
@@ -129,8 +135,8 @@ function toggleFaq(item: (typeof faqs)[number]) {
       <div class="container">
         <div class="section-intro centered">
           <h6>Who We Serve</h6>
-          <h2>Short-Term and Transitional Support at Home</h2>
-          <p>BridgeCare serves individuals and families who need short-term or transitional support at home.</p>
+          <h2>Support for the Moments You Could Use an Extra Hand</h2>
+          <p>BridgeCare supports adults who need temporary, practical help at home — whether you're recovering, adjusting after childbirth, away from your usual support system, or simply need help keeping up with everyday tasks.</p>
         </div>
         <div class="grid grid-4">
           <article v-for="item in whoWeServe" :key="item.title" class="icon-card">
@@ -145,19 +151,20 @@ function toggleFaq(item: (typeof faqs)[number]) {
     <section class="section section-alt">
       <div class="container">
         <div class="section-intro centered">
-          <h6>Trust Indicators</h6>
-          <h2>Professional, Compliant, Relationship-Based Care</h2>
+          <h6>Why Choose BridgeCare?</h6>
+          <h2>Support You Can Feel Comfortable With</h2>
+          <p>Inviting someone into your home is personal. Whether you're recovering, helping a loved one, or simply need an extra hand, you deserve support that feels reliable, respectful, and designed around you.</p>
         </div>
         <div class="grid grid-3">
           <article v-for="indicator in trustIndicators" :key="indicator.title" class="icon-card">
             <div class="icon-badge">{{ indicator.icon }}</div>
             <h4>{{ indicator.title }}</h4>
+            <p>{{ indicator.text }}</p>
             <ul class="check-list" style="color: var(--text); margin-top: 0.6rem;">
               <li v-for="point in indicator.items" :key="point">{{ point }}</li>
             </ul>
           </article>
         </div>
-        <p style="text-align: center; color: var(--muted); margin-top: 2rem;">Our goal is to support safe recovery after discharge and reduce stress for families.</p>
       </div>
     </section>
 
@@ -166,12 +173,12 @@ function toggleFaq(item: (typeof faqs)[number]) {
         <div class="cta-banner">
           <div class="cta-banner-bg"><img src="/images/refer-a-patient-bg.jpg" alt="" /></div>
           <div class="cta-banner-content">
-            <h2>Need Recovery Support at Home?</h2>
-            <p>BridgeCare provides reliable non-medical assistance when individuals need extra help after surgery, during postpartum recovery, or while transitioning home.</p>
+            <h2>Need an Extra Hand?</h2>
+            <p>Whether you're planning ahead, recovering at home, welcoming a new baby, or simply need help with everyday tasks, we're here to make getting support simple.</p>
           </div>
           <div style="position: relative; z-index: 1; display: flex; gap: 0.8rem; flex-wrap: wrap;">
             <ScheduleButton class="btn btn-gold cta-banner-action">Schedule A Consultation</ScheduleButton>
-            <NuxtLink class="btn btn-outline cta-banner-action" to="/referral-partners">Refer A Patient</NuxtLink>
+            <NuxtLink class="btn btn-outline cta-banner-action" to="/referral-partners">Make a Referral</NuxtLink>
           </div>
         </div>
       </div>
@@ -186,8 +193,9 @@ function toggleFaq(item: (typeof faqs)[number]) {
         </div>
         <div>
           <div class="section-intro">
-            <h6>Frequently Asked Questions</h6>
-            <h2>Caring Answers That Bring Peace of Mind</h2>
+            <h6>FAQs</h6>
+            <h2>Frequently Asked Questions</h2>
+            <p>Everything you need to know about getting support from BridgeCare.</p>
           </div>
           <div class="faq-list">
             <div v-for="item in faqs" :key="item.q" class="faq-item" :class="{ open: item.open }">

@@ -96,7 +96,7 @@ watch(() => route.fullPath, () => {
         <div class="footer-grid">
           <div class="footer-brand">
             <img src="/images/logo.png" alt="BridgeCare Home Solutions" />
-            <p>We provide structured, non-medical in-home support that promotes safety, comfort, and recovery during life's transition periods.</p>
+            <p>Personalized, non-medical concierge support for adults who need an extra hand during recovery or with everyday tasks.</p>
             <div class="footer-social" aria-label="Social links">
               <a href="https://www.facebook.com/profile.php?id=61591857429989" target="_blank" rel="noopener" aria-label="Facebook">f</a>
               <a href="https://www.instagram.com/bridgecarehomesolutions?igsi=MWpyZjhjcGduNzliZQ%3D%3D&utm_source=qr" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
@@ -115,7 +115,7 @@ watch(() => route.fullPath, () => {
             </div>
           </div>
           <div>
-            <h5>Types Of Care</h5>
+            <h5>Our Services</h5>
             <div class="footer-links">
               <NuxtLink v-for="service in services" :key="service.slug" :to="`/services/${service.slug}`">{{ service.title }}</NuxtLink>
             </div>
