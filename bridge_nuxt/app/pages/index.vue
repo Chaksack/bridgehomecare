@@ -66,7 +66,7 @@ function toggleFaq(item: (typeof faqs)[number]) {
   <div>
     <section class="hero">
       <div class="hero-bg">
-        <img src="/images/hero-home.jpg" alt="BridgeCare support professional helping a client during recovery at home" />
+        <img src="/images/img/Picture1.jpg" alt="Client relaxing at home during post-surgery recovery" />
       </div>
       <div class="container">
         <div class="hero-content">
@@ -102,8 +102,8 @@ function toggleFaq(item: (typeof faqs)[number]) {
         </div>
         <div class="split-media">
           <div class="collage">
-            <img class="collage-primary" src="/images/why-bridgecare-1.jpg" alt="BridgeCare support professional with a client" />
-            <img class="collage-secondary" src="/images/why-bridgecare-2.jpg" alt="BridgeCare support professional assisting a client" />
+            <img class="collage-primary" src="/images/img/Picture3.jpg" alt="BridgeCare support professional with a client" />
+            <img class="collage-secondary" src="/images/img/Picture5.jpg" alt="BridgeCare support professional assisting a client" />
           </div>
         </div>
       </div>
@@ -188,7 +188,7 @@ function toggleFaq(item: (typeof faqs)[number]) {
       <div class="container split">
         <div class="split-media">
           <div class="collage">
-            <img class="collage-primary" src="/images/about-photo-2.jpg" alt="Client at home during recovery" />
+            <img class="collage-primary" src="/images/img/Picture4.jpg" alt="Client at home during recovery" />
           </div>
         </div>
         <div>

@@ -13,7 +13,7 @@ export const services: Service[] = [
     slug: 'pre-post-surgery-recovery-support',
     title: 'Pre & Post-Surgery Recovery Support',
     excerpt: 'Practical, non-medical support before and after surgery or an outpatient procedure, helping make recovery at home easier and less stressful.',
-    image: '/images/hero-home.jpg',
+    image: '/images/img/Picture1.jpg',
     intro: 'Recovering from surgery can be difficult when you don’t have someone nearby to help with the little things. BridgeCare provides personalized, non-medical support before and after surgery or an outpatient procedure, helping you feel more prepared, comfortable, and supported at home. Whether you live alone, have family who can’t be there, or are traveling to the Denver-Aurora area for a procedure, we’re here to provide an extra hand when you need it.',
     includes: [
       'Getting Home & Settled – Support after discharge or a procedure, including helping you get home and settled comfortably.',
@@ -29,7 +29,7 @@ export const services: Service[] = [
     slug: 'postpartum-new-mother-support',
     title: 'Postpartum & New Mother Support',
     excerpt: 'An extra hand at home while you recover from childbirth, including C-section recovery, with practical household support tailored to your needs.',
-    image: '/images/service-light-housekeeping.jpg',
+    image: '/images/img/Picture6.jpg',
     intro: 'Bringing home a new baby is a big adjustment – and recovering from childbirth takes time. BridgeCare provides personalized, non-medical support for new mothers who could use an extra hand at home during postpartum recovery, including after a C-section. Whether family lives far away, your partner has returned to work, or you simply need additional help while you recover, we’re here to make everyday life a little easier.',
     includes: [
       'Light Household Help – Help with light housekeeping, laundry, tidying, and other appropriate household tasks so there’s less for you to worry about.',
@@ -44,7 +44,7 @@ export const services: Service[] = [
     slug: 'everyday-concierge-support',
     title: 'Everyday Concierge Support',
     excerpt: 'Flexible, non-medical support for adults who could use an extra hand with everyday tasks, errands, household needs, or temporary changes in routine.',
-    image: '/images/service-companionship.jpg',
+    image: '/images/img/Picture2.jpg',
     intro: 'Sometimes life gets busy, circumstances change, or you simply need an extra hand. BridgeCare provides personalized, non-medical concierge support for adults who could use help keeping up with everyday tasks at home and in the community. Whether you need temporary support, help while family is away, or simply an extra set of hands from time to time, we’ll create a personalized support plan around what works for you.',
     includes: [
       'Light Household Help – Help with light housekeeping, laundry, tidying, and other appropriate household tasks.',
