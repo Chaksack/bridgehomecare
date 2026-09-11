@@ -527,6 +527,7 @@ button { font-family: inherit; }
   .split-media { order: -1; }
 }
 @media (max-width: 720px) {
+  .detail-media-hero-dupe { display: none; }
   .topbar { font-size: 0.78rem; }
   .topbar-inner { justify-content: space-between; flex-wrap: nowrap; gap: 0.6rem; padding: 0.55rem 0; }
   .topbar-links { gap: 0.9rem; flex-wrap: nowrap; overflow: hidden; }

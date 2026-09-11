@@ -1,11 +1,11 @@
 <script setup lang="ts">
-defineProps<{ title: string }>()
+const props = defineProps<{ title: string; image?: string }>()
 </script>
 
 <template>
   <section class="page-banner">
     <div class="hero-bg">
-      <img src="/images/page-banner.jpg" alt="" />
+      <img :src="props.image || '/images/page-banner.jpg'" alt="" />
     </div>
     <div class="container page-banner-content">
       <h1>{{ title }}</h1>

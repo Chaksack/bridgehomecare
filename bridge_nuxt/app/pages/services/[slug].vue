@@ -16,12 +16,12 @@ const otherServices = computed(() => services.filter((s) => s.slug !== slug.valu
 
 <template>
   <div>
-    <PageBanner :title="service.title" />
+    <PageBanner :title="service.title" :image="service.image" />
 
     <section class="section">
       <div class="container detail-layout">
         <article class="prose">
-          <div class="detail-media">
+          <div class="detail-media detail-media-hero-dupe">
             <img :src="service.image" :alt="service.title" />
           </div>
           <h2>{{ service.title }}</h2>
