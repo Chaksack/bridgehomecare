@@ -44,7 +44,7 @@ export const services: Service[] = [
     slug: 'everyday-concierge-support',
     title: 'Everyday Concierge Support',
     excerpt: 'Flexible, non-medical support for adults who could use an extra hand with everyday tasks, errands, household needs, or temporary changes in routine.',
-    image: '/images/img/Picture2.jpg',
+    image: '/images/img/everyday-concierge-support.png',
     intro: 'Sometimes life gets busy, circumstances change, or you simply need an extra hand. BridgeCare provides personalized, non-medical concierge support for adults who could use help keeping up with everyday tasks at home and in the community. Whether you need temporary support, help while family is away, or simply an extra set of hands from time to time, we’ll create a personalized support plan around what works for you.',
     includes: [
       'Light Household Help – Help with light housekeeping, laundry, tidying, and other appropriate household tasks.',

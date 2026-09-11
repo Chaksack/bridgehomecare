@@ -16,6 +16,7 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+html, body { max-width: 100%; overflow-x: hidden; }
 body {
   margin: 0;
   font-family: 'Barlow', Arial, sans-serif;
@@ -53,7 +54,7 @@ ul { padding-left: 0; list-style: none; margin: 0; }
   flex-wrap: wrap;
 }
 .topbar-links { display: flex; gap: 1.5rem; flex-wrap: wrap; }
-.topbar-links a, .topbar-links span { color: #fff; font-weight: 400; }
+.topbar-links a, .topbar-links span { color: #fff; font-weight: 400; overflow-wrap: anywhere; }
 .topbar-links .prefix { margin-right: 0.3rem; }
 .topbar-social { display: flex; gap: 0.6rem; }
 .topbar-social a {
@@ -71,7 +72,7 @@ ul { padding-left: 0; list-style: none; margin: 0; }
 .site-header {
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 300;
   background: #fff;
   border-bottom: 1px solid var(--border);
   transition: box-shadow 200ms ease;
@@ -386,7 +387,9 @@ ul { padding-left: 0; list-style: none; margin: 0; }
   background: rgba(28, 58, 92, 0.08);
   color: var(--navy);
 }
+.contact-detail > div { min-width: 0; }
 .contact-detail strong { display: block; color: var(--navy-dark); }
+.contact-detail span, .contact-detail a { overflow-wrap: anywhere; }
 form { display: grid; gap: 1rem; }
 label { display: grid; gap: 0.4rem; font-weight: 600; font-size: 0.92rem; }
 input, textarea, select {
@@ -570,4 +573,24 @@ button { font-family: inherit; }
   .grid-4 { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; }
   .cta-banner { padding: 2.2rem; flex-direction: column; align-items: flex-start; }
+  .stat-row { grid-template-columns: 1fr; }
+  .detail-layout { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+  .container { width: calc(100% - 2rem); }
+  .section { padding: 3rem 0; }
+  .section-sm { padding: 2rem 0; }
+  .hero { min-height: 520px; }
+  .hero-content { padding: 3rem 0; }
+  .hero-actions .btn,
+  .cta-banner-action { width: 100%; }
+  .brand img { height: 60px; }
+  .navbar { min-height: 84px; }
+  .collage .collage-primary { height: 280px; }
+  .collage .collage-secondary { height: 160px; }
+  .stat-row strong { font-size: 1.25rem; }
+  .article-nav { flex-direction: column; align-items: flex-start; }
+  .article-nav a, .article-nav button { max-width: 100%; }
+  .article-nav .next { text-align: left; margin-left: 0; }
 }
