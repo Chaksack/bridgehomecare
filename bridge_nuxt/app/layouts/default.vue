@@ -54,9 +54,18 @@ watch(() => route.fullPath, () => {
     <div class="topbar">
       <div class="container topbar-inner">
         <div class="topbar-links">
-          <a href="tel:+17204600611"><span class="prefix">Phone:</span>+1 720-460-0611</a>
-          <a href="mailto:Info@BridgeCareHomeSolutions.com"><span class="prefix">Email:</span>Info@BridgeCareHomeSolutions.com</a>
-          <span><span class="prefix">Opening Hours:</span>08:00am to 06:00pm</span>
+          <a href="tel:+17204600611">
+            <svg class="topbar-icon" viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8z"/></svg>
+            <span class="prefix">Phone:</span>+1 720-460-0611
+          </a>
+          <a href="mailto:Info@BridgeCareHomeSolutions.com" aria-label="Email BridgeCare Home Solutions">
+            <svg class="topbar-icon" viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M2 6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6zm2.4-.2 7.1 6.1a1 1 0 0 0 1.3 0l7.1-6.1a.5.5 0 0 0-.3-.8H4.7a.5.5 0 0 0-.3.8z"/></svg>
+            <span class="prefix">Email:</span><span class="topbar-email">Info@BridgeCareHomeSolutions.com</span>
+          </a>
+          <span class="topbar-hours">
+            <svg class="topbar-icon" viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 10.4 4.2 2.5-.8 1.3-5-3V6h1.6v6.4z"/></svg>
+            <span class="prefix">Opening Hours:</span>08:00am to 06:00pm
+          </span>
         </div>
         <div class="topbar-social" aria-label="Social links">
           <a href="https://www.facebook.com/profile.php?id=61591857429989" target="_blank" rel="noopener" aria-label="Facebook">

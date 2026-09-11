@@ -54,8 +54,9 @@ ul { padding-left: 0; list-style: none; margin: 0; }
   flex-wrap: wrap;
 }
 .topbar-links { display: flex; gap: 1.5rem; flex-wrap: wrap; }
-.topbar-links a, .topbar-links span { color: #fff; font-weight: 400; overflow-wrap: anywhere; }
+.topbar-links a, .topbar-links span { display: inline-flex; align-items: center; gap: 0.35rem; color: #fff; font-weight: 400; overflow-wrap: anywhere; }
 .topbar-links .prefix { margin-right: 0.3rem; }
+.topbar-icon { flex-shrink: 0; opacity: 0.85; }
 .topbar-social { display: flex; gap: 0.6rem; }
 .topbar-social a {
   width: 32px; height: 32px;
@@ -526,7 +527,15 @@ button { font-family: inherit; }
   .split-media { order: -1; }
 }
 @media (max-width: 720px) {
-  .topbar-inner { justify-content: center; text-align: center; }
+  .topbar { font-size: 0.78rem; }
+  .topbar-inner { justify-content: space-between; flex-wrap: nowrap; gap: 0.6rem; padding: 0.55rem 0; }
+  .topbar-links { gap: 0.9rem; flex-wrap: nowrap; overflow: hidden; }
+  .topbar-links .topbar-hours { display: none; }
+  .topbar-links a[href^="mailto"] .prefix,
+  .topbar-links a[href^="mailto"] .topbar-email,
+  .topbar-links a[href^="tel"] .prefix { display: none; }
+  .topbar-links a { flex-shrink: 0; }
+  .topbar-social a { width: 28px; height: 28px; }
   .nav-backdrop {
     display: block;
     position: fixed;
