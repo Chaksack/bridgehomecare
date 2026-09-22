@@ -235,6 +235,8 @@ ul { padding-left: 0; list-style: none; margin: 0; }
   object-fit: cover;
 }
 .collage .collage-primary { position: relative; z-index: 1; height: 380px; }
+.collage.collage-single { padding: 0; }
+.collage.collage-single .collage-primary { height: auto; aspect-ratio: 3 / 2; }
 .collage .collage-secondary {
   position: absolute;
   right: 0;
@@ -404,6 +406,21 @@ input, textarea, select {
 input:focus, textarea:focus, select:focus { outline: 2px solid var(--gold); outline-offset: 1px; }
 button { font-family: inherit; }
 .form-note { color: var(--gold-dark); font-weight: 600; min-height: 1.3rem; }
+.consent { display: grid; gap: 0.6rem; }
+.consent h4 { font-size: 1rem; margin: 0; }
+.consent label { display: flex; align-items: flex-start; gap: 0.6rem; font-weight: 500; }
+.consent input[type="checkbox"] { width: 1.1rem; height: 1.1rem; margin-top: 0.25rem; padding: 0; flex-shrink: 0; accent-color: var(--navy); }
+.consent p { margin: 0; font-size: 0.85rem; color: var(--muted); }
+.consent p a { color: var(--navy); text-decoration: underline; }
+
+/* Legal pages (privacy policy & terms of use) */
+.legal { max-width: 820px; }
+.legal h2 { font-size: clamp(1.5rem, 2.6vw, 2rem); margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border); }
+.legal h3 { font-size: 1.15rem; margin-top: 1.8rem; }
+.legal ul { display: grid; gap: 0.4rem; margin: 0 0 1em; }
+.legal ul li { position: relative; padding-left: 1.3rem; }
+.legal ul li::before { content: '\2022'; position: absolute; left: 0.3rem; color: var(--gold-dark); font-weight: 700; }
+.legal a { color: var(--navy); text-decoration: underline; overflow-wrap: anywhere; }
 
 /* Footer */
 .footer { background: var(--footer-bg); color: var(--footer-text); }
@@ -436,6 +453,8 @@ button { font-family: inherit; }
   font-size: 0.85rem;
   color: rgba(255, 255, 255, 0.55);
 }
+.footer-legal-link { text-decoration: underline; }
+.footer-legal-link:hover { color: var(--gold); }
 
 /* Detail pages (service / blog post) */
 .detail-layout {

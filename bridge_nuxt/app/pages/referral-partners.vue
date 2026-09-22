@@ -43,7 +43,8 @@ const form = reactive({
   organization: '',
   phone: '',
   email: '',
-  notes: ''
+  notes: '',
+  authorized: false
 })
 const note = ref('')
 
@@ -55,6 +56,7 @@ function handleSubmit() {
   form.phone = ''
   form.email = ''
   form.notes = ''
+  form.authorized = false
 }
 </script>
 
@@ -171,6 +173,14 @@ function handleSubmit() {
             <label>Notes
               <textarea v-model="form.notes" rows="5" placeholder="Tell us about the client's recovery or household support needs"></textarea>
             </label>
+            <div class="consent">
+              <h4>Referral Authorization</h4>
+              <label>
+                <input v-model="form.authorized" type="checkbox" required />
+                <span>I confirm that I am authorized to provide the information submitted and that the person being referred has agreed to be contacted by BridgeCare Home Solutions regarding this referral.</span>
+              </label>
+              <p>By submitting this referral, you agree that BridgeCare may contact you regarding the referral. Information submitted through this form will be handled as described in our <NuxtLink to="/privacy-terms">Privacy Policy &amp; Terms of Use</NuxtLink>.</p>
+            </div>
             <button class="btn btn-primary" type="submit">Submit Referral</button>
             <div class="form-note" aria-live="polite">{{ note }}</div>
           </form>

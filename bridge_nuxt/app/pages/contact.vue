@@ -16,7 +16,8 @@ const form = reactive({
   email: '',
   supportType: '',
   timing: '',
-  notes: ''
+  notes: '',
+  consent: false
 })
 const note = ref('')
 
@@ -28,6 +29,7 @@ function handleSubmit() {
   form.supportType = ''
   form.timing = ''
   form.notes = ''
+  form.consent = false
 }
 
 const steps = [
@@ -98,6 +100,14 @@ const steps = [
             <label>Anything you'd like us to know?
               <textarea v-model="form.notes" rows="4" placeholder="Optional"></textarea>
             </label>
+            <div class="consent">
+              <h4>Consent</h4>
+              <label>
+                <input v-model="form.consent" type="checkbox" required />
+                <span>I agree that BridgeCare Home Solutions may contact me by phone, text, or email regarding my request.</span>
+              </label>
+              <p>By submitting this form, you acknowledge that the information you provide will be handled as described in our <NuxtLink to="/privacy-terms">Privacy Policy &amp; Terms of Use</NuxtLink>.</p>
+            </div>
             <button class="btn btn-primary" type="submit">Request Support</button>
             <div class="form-note" aria-live="polite">{{ note }}</div>
           </form>

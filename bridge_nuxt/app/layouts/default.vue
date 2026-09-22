@@ -149,7 +149,7 @@ watch(() => route.fullPath, () => {
         </div>
       </div>
       <div class="container footer-bottom">
-        <span>&copy; {{ currentYear }} BridgeCare Home Solutions. All Rights Reserved.</span>
+        <span>&copy; {{ currentYear }} BridgeCare Home Solutions. All Rights Reserved. | <NuxtLink class="footer-legal-link" to="/privacy-terms">Privacy Policy &amp; Terms of Use</NuxtLink></span>
         <span>Serving the Denver&ndash;Aurora Metropolitan Area</span>
       </div>
     </footer>

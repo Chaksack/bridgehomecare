@@ -26,9 +26,8 @@ const difference = [
     <section class="section">
       <div class="container split">
         <div class="split-media">
-          <div class="collage">
-            <img class="collage-primary" src="/images/img/Picture3.jpg" alt="BridgeCare support professional helping a client" />
-            <img class="collage-secondary" src="/images/img/Picture4.jpg" alt="Client at home" />
+          <div class="collage collage-single">
+            <img class="collage-primary" src="/images/img/about-us.jpg" alt="Woman recovering comfortably at home on the couch with her dog" />
           </div>
         </div>
         <div>

@@ -25,9 +25,9 @@ const trustIndicators = [
     ]
   },
   {
-    title: 'Clearly Non-Medical',
+    title: 'Practical Support',
     icon: '🛡️',
-    text: 'BridgeCare provides practical, non-medical assistance within clearly defined service boundaries. We do not provide medical, clinical, or nursing services.',
+    text: 'Flexible, non-medical assistance designed around your everyday needs, recovery, or circumstances.',
     items: [
       'Clear non-medical service boundaries',
       'Safety-focused practices',
@@ -71,7 +71,7 @@ function toggleFaq(item: (typeof faqs)[number]) {
       <div class="container">
         <div class="hero-content">
           <p class="eyebrow">Personalized Non-Medical Support</p>
-          <h1>An Extra Hand When You Need It Most<span class="text-gold">.</span></h1>
+          <h1>An Extra Hand When You Need It Most</h1>
           <p>Personalized concierge support for adults who need an extra hand during recovery or with everyday tasks. From post-surgery and postpartum support to help around the home, BridgeCare provides flexible, non-medical assistance throughout the Denver-Aurora area.</p>
           <div class="hero-actions">
             <ScheduleButton class="btn btn-gold">Schedule A Consultation</ScheduleButton>
