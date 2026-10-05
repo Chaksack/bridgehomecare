@@ -32,7 +32,10 @@ const otherServices = computed(() => services.filter((s) => s.slug !== slug.valu
             <li v-for="item in service.includes" :key="item">{{ item }}</li>
           </ul>
 
-          <p>{{ service.closing }}</p>
+          <template v-for="section in service.sections" :key="section.heading">
+            <h3>{{ section.heading }}</h3>
+            <p>{{ section.body }}</p>
+          </template>
 
           <div class="article-nav">
             <NuxtLink to="/services">&larr; All Services</NuxtLink>

@@ -5,7 +5,7 @@ export interface Service {
   image: string
   intro: string
   includes: string[]
-  closing: string
+  sections: { heading: string, body: string }[]
 }
 
 export const services: Service[] = [
@@ -23,7 +23,16 @@ export const services: Service[] = [
       'Errands & Essentials – Assistance with appropriate errands and picking up everyday essentials you may need during recovery.',
       'Practical Recovery Support – Help with appropriate non-medical tasks outlined in your personalized support plan.'
     ],
-    closing: 'What We Don’t Provide: BridgeCare provides non-medical support and does not provide medical, nursing, or hands-on personal care. We do not diagnose conditions, provide medical treatment, administer medications, perform clinical tasks, or replace your healthcare provider’s instructions. If you’re unsure whether the help you need falls within our services, we’ll discuss it with you during your consultation. Planning ahead? You don’t have to wait until after your procedure to contact us – scheduling support ahead of time can help you know what to expect and have a plan in place for when you return home.'
+    sections: [
+      {
+        heading: 'What We Don’t Provide',
+        body: 'BridgeCare provides non-medical support and does not provide medical, nursing, or hands-on personal care. We do not diagnose conditions, provide medical treatment, administer medications, perform clinical tasks, or replace your healthcare provider’s instructions. If you’re unsure whether the help you need falls within our services, we’ll discuss it with you during your consultation.'
+      },
+      {
+        heading: 'Planning Ahead?',
+        body: 'You don’t have to wait until after your procedure to contact us – scheduling support ahead of time can help you know what to expect and have a plan in place for when you return home.'
+      }
+    ]
   },
   {
     slug: 'postpartum-new-mother-support',
@@ -38,7 +47,16 @@ export const services: Service[] = [
       'Errands & Household Essentials – Help with appropriate errands and everyday household needs when getting out of the house isn’t convenient.',
       'Pet Support – Help with basic pet-related tasks, including feeding and walking, when appropriate.'
     ],
-    closing: 'Support for Mom & the household: BridgeCare provides practical, non-medical support for Mom and the household while she recovers. Our postpartum service is not newborn childcare, nanny care, doula care, postpartum nursing, or medical care. BridgeCare support professionals do not assume responsibility for caring for or supervising your baby. If you’re unsure whether something you need falls within our services, we’ll discuss it with you during your consultation. Planning ahead? If you’re expecting and know you may need an extra hand after childbirth, contact BridgeCare ahead of time – we’ll create a personalized support plan for when you return home.'
+    sections: [
+      {
+        heading: 'Support for Mom & the Household',
+        body: 'BridgeCare provides practical, non-medical support for Mom and the household while she recovers. Our postpartum service is not newborn childcare, nanny care, doula care, postpartum nursing, or medical care. BridgeCare support professionals do not assume responsibility for caring for or supervising your baby. If you’re unsure whether something you need falls within our services, we’ll discuss it with you during your consultation.'
+      },
+      {
+        heading: 'Planning Ahead?',
+        body: 'If you’re expecting and know you may need an extra hand after childbirth, contact BridgeCare ahead of time – we’ll create a personalized support plan for when you return home.'
+      }
+    ]
   },
   {
     slug: 'everyday-concierge-support',
@@ -55,7 +73,12 @@ export const services: Service[] = [
       'Organization & Everyday Tasks – An extra hand with household organization and other appropriate everyday tasks that can make your routine easier to manage.',
       'Companionship – Friendly, non-medical companionship for adults who would enjoy conversation, activities, or simply having someone there for a little extra support.'
     ],
-    closing: 'Flexible support built around you: you don’t have to fit into a traditional care model. You may need BridgeCare for a short period, occasionally, or on a more regular basis. We’ll talk about what you need and create a personalized support plan based on your schedule and the services BridgeCare provides. BridgeCare provides practical, non-medical support – we do not provide medical, nursing, or hands-on personal care services.'
+    sections: [
+      {
+        heading: 'Flexible Support Built Around You',
+        body: 'You don’t have to fit into a traditional care model. You may need BridgeCare for a short period, occasionally, or on a more regular basis. We’ll talk about what you need and create a personalized support plan based on your schedule and the services BridgeCare provides. BridgeCare provides practical, non-medical support – we do not provide medical, nursing, or hands-on personal care services.'
+      }
+    ]
   }
 ]
 

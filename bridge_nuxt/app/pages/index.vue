@@ -87,18 +87,15 @@ function toggleFaq(item: (typeof faqs)[number]) {
           <div class="section-intro">
             <h6>About Us</h6>
             <h2>You Don't Have to Do It All Alone</h2>
-            <p>BridgeCare was created around a simple idea: sometimes you just need an extra hand. Whether you're recovering from surgery, adjusting after childbirth, living on your own, or simply need temporary help with everyday tasks, having reliable support can make all the difference. BridgeCare provides personalized, non-medical concierge support designed around your needs — so you can focus on recovering, getting things done, and feeling more comfortable at home.</p>
+            <p>BridgeCare was created around a simple idea: sometimes you just need an extra hand.</p>
+            <p>Whether you're recovering, adjusting to something new, or simply trying to keep up with everyday life, having reliable support can make all the difference.</p>
+            <p>BridgeCare provides personalized, non-medical concierge support designed around your needs — helping make life at home a little easier when you need it most.</p>
           </div>
-          <ul class="check-list" style="color: var(--text);">
-            <li>Short-term and flexible support</li>
-            <li>Personalized to your needs</li>
-            <li>Private-pay for convenient access to services</li>
-            <li>Serving the Denver-Aurora metropolitan area</li>
-          </ul>
           <div class="stat-row">
             <div><strong>Trusted Support Professionals</strong><span>Carefully screened and prepared to provide dependable, non-medical assistance while respecting clear service boundaries.</span></div>
             <div><strong>Non-Medical Support</strong><span>Practical assistance designed to complement your existing medical care when applicable — never replace it.</span></div>
           </div>
+          <NuxtLink class="btn btn-primary" to="/about" style="margin-top: 1.6rem;">Learn More About BridgeCare</NuxtLink>
         </div>
         <div class="split-media">
           <div class="collage">
@@ -114,7 +111,7 @@ function toggleFaq(item: (typeof faqs)[number]) {
         <div class="section-intro centered">
           <h6>Our Services</h6>
           <h2>Personalized Support for Recovery & Everyday Life</h2>
-          <p>BridgeCare provides flexible, non-medical concierge support based on what you need and when you need it. Whether you're preparing for a procedure, recovering at home, welcoming a new baby, or simply need an extra hand with everyday tasks, we're here to help.</p>
+          <p>From preparing for surgery to navigating postpartum recovery or simply keeping up with everyday life, choose the support that best fits what you need.</p>
         </div>
         <div class="grid grid-3">
           <article v-for="service in services" :key="service.slug" class="service-card">

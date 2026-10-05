@@ -1,7 +1,12 @@
 <script setup lang="ts">
 useHead({ title: 'Contact Us' })
 
-const { calendlyUrl } = useCalendly()
+const { initInline } = useCalendly()
+const calendlyEmbed = ref<HTMLElement | null>(null)
+
+onMounted(() => {
+  if (calendlyEmbed.value) initInline(calendlyEmbed.value)
+})
 
 const supportTypes = [
   'Pre & Post-Surgery Recovery Support',
@@ -138,9 +143,7 @@ const steps = [
           <h2>Prefer to Schedule a Consultation?</h2>
           <p>Choose a convenient time to speak with BridgeCare about what you're looking for.</p>
         </div>
-        <ClientOnly>
-          <div class="calendly-inline-widget" :data-url="calendlyUrl" style="min-width: 320px; height: 700px;" />
-        </ClientOnly>
+        <div ref="calendlyEmbed" class="calendly-embed" style="min-width: 320px; height: 700px;" />
       </div>
     </section>
   </div>

@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { services } from '~/data/services'
-
 useHead({ title: 'About Us' })
 
 const whyExists = [
@@ -80,38 +78,6 @@ const difference = [
             <div class="icon-badge">{{ item.icon }}</div>
             <h4>{{ item.title }}</h4>
             <p>{{ item.text }}</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-alt">
-      <div class="container" style="max-width: 820px; text-align: center;">
-        <div class="section-intro centered">
-          <h6>Our Service Boundaries</h6>
-          <h2>Clearly Non-Medical</h2>
-          <p>BridgeCare provides practical, non-medical support. We do not provide medical, nursing, or hands-on personal care services. If you're unsure whether the help you need falls within our services, we'll be happy to discuss it during your consultation.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="section-intro centered">
-          <h6>Our Services</h6>
-          <h2>Types of Support We Provide</h2>
-          <p>BridgeCare provides flexible, non-medical concierge support for adults who need an extra hand — whether you're preparing for a procedure, recovering at home, welcoming a new baby, or simply need help with everyday tasks.</p>
-        </div>
-        <div class="grid grid-3">
-          <article v-for="service in services" :key="service.slug" class="service-card">
-            <NuxtLink :to="`/services/${service.slug}`">
-              <img :src="service.image" :alt="service.title" />
-            </NuxtLink>
-            <div class="service-card-body">
-              <h3><NuxtLink :to="`/services/${service.slug}`">{{ service.title }}</NuxtLink></h3>
-              <p>{{ service.excerpt }}</p>
-              <NuxtLink class="read-more" :to="`/services/${service.slug}`">Learn More &rarr;</NuxtLink>
-            </div>
           </article>
         </div>
       </div>
